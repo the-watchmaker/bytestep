@@ -29,8 +29,22 @@ Make sure you add a scope **data.records:read**
 ### Step 3. Copy and Paste the token on ByteStep (and you're all set!)
 
 - The settings will be saved on .config.yml
-- The token will be saved in environment variable. Based on the set up, it can be ephemeral. Missing token will trigger init setup page.
+- The token will be saved in environment variable `BYTESTEP_AIRTABLE_TOKEN` Based on the set up, it can be ephemeral. Missing token will trigger init setup page.
 
+#### Manual Setup
+Alternatively, you can create a .config.yml and set the token `BYTESTEP_AIRTABLE_TOKEN` manually 
+
+Please save .config.yml in the root folder
+
+```yaml
+title: Tinlin's Videography Stuff
+subtitle: My name is Joseph Tinlin, a videographer from Vancouver, Canada
+stylesheet_url: # optional
+```
+
+```bash
+env BYTESTEP_AIRTABLE_TOKEN=<AirTable token> npm run dev
+```
 
 
 ## Getting Started
