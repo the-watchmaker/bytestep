@@ -1,4 +1,4 @@
-## Byte Step - Blog/Website Builder with AirTable
+## ByteStep - Blog/Website Builder with AirTable
 
 A blog builder using AirTable. 
 
