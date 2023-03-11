@@ -1,6 +1,6 @@
 ## ByteStep
 
-A simple lightweight noDB blog|website builder. It stores data on GitHub repo.
+A simple lightweight noDB blog builder. It stores data on GitHub repo. I built this for my own use. But if you like it, please use it.
 
 
 
