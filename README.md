@@ -26,10 +26,10 @@ Make sure you add a scope **data.records:read**
 <img width="720" alt="Screen Shot 2023-03-10 at 6 31 46 PM" src="https://user-images.githubusercontent.com/4682613/224460403-ea878638-6f7f-4895-a372-ef5e43128ede.png">
 
 
-### Step 3. Copy and Paste the token (and you're all set!)
+### Step 3. Copy and Paste the token on ByteStep (and you're all set!)
 
-
-
+- The settings will be saved on .config.yml
+- The token will be saved in environment variable. Based on the set up, it can be ephemeral. Missing token will trigger init setup page.
 
 
 
